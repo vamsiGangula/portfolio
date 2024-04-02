@@ -5,6 +5,11 @@ import "../styles/home.css";
 import GitHub from "../JSXLOGOS/GitHub";
 import LinkedIn from "../JSXLOGOS/LinkedIn";
 import Image from "../public/images/WhatsApp_Image_2024-04-02_at_10.29.35_AM-removebg-preview.png"
+import About from "./about";
+import Skills from "./skills";
+import Projects from "./projects";
+import Experience from "./experience";
+import Contact from "./contact";
 const Home = () => {
   return (
     <>
@@ -58,6 +63,12 @@ const Home = () => {
           </Grid>
         </Box>
       </div>
+      
+        <About/>
+        <Skills />
+          <Experience />
+         <Projects />
+         <Contact />
     </>
   );
 };
