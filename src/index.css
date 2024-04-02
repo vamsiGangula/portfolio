@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.contact4 >form > div {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.contact4 >form > div > div > fieldset{
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 50px;
+}
+.contact4 > form{
+  margin-top: 10px;
+}

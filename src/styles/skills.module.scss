@@ -1,0 +1,74 @@
+.skills1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+  background: #161212;
+}
+.skills2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slideTop backwards 2s ease-in-out;
+  animation-delay: 0.5s;
+}
+@keyframes slideTop {
+    0%{
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+.skills3 {
+  color: #ffff;
+}
+.skills4 {
+  background-color: #302e2e;
+  border: 1px #302e2e;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.skills5 {
+  color: #ffff;
+}
+.skills6 {
+  color: #ffff;
+  list-style: none;
+}
+.skills8 {
+    animation: slideRightToCenters forwards 2s ease-in-out;
+    animation-delay: 0.5s;
+}
+
+@keyframes slideRightToCenters {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.skills9 {
+    animation: slideLeftToCenter forwards 2s ease-in-out;
+    animation-delay: 0.5s;
+}
+
+@keyframes slideLeftToCenter {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}

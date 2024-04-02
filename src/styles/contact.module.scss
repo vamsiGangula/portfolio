@@ -1,0 +1,38 @@
+.contact1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+  background: #161212;
+  height: 70vh;
+  
+}
+.contact3 {
+  color: #ffff;
+}
+.contact4 {
+  background-color: #302e2e;
+  border: 1px #302e2e;
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+}
+.contact6{
+    animation: zoomInOut forwards 2s ease-out;
+    animation-delay: 0.5s;
+}
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1); 
+        opacity: 1;         
+    }
+    50% {
+        transform: scale(1.5); /* Zoom in to 110% size */
+        opacity: 1;         /* Reduce opacity to 70% */
+    }
+    100% {
+        transform: scale(1);  /* Return to normal size */
+        opacity: 1;          /* Return to full opacity */
+    }
+}

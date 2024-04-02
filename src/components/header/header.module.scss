@@ -1,0 +1,33 @@
+.test1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #000;
+}
+.port {
+  color: #ffff;
+}
+.navtext {
+  // display: flex;
+  justify-content: space-evenly;
+  color: #ffff;
+}
+@media screen and (min-width: 1200px) {
+  .navtext {
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffff;
+  }
+}
+
+.navheads {
+  color: #ffff;
+  padding-left: 15px;
+  list-style: none;
+  display: flex;
+}
+.headd {
+  text-decoration: none !important;
+  color: #ffff !important;
+}
+
