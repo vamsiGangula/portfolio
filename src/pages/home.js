@@ -52,7 +52,7 @@ const Home = () => {
             </Grid>
             <Grid item xs={6}>
               <div className="home-img">
-                <img src={Image} alt="error" width={500} />
+                <img src={Image} alt="error" className="img-wii" />
               </div>
             </Grid>
           </Grid>
