@@ -24,7 +24,7 @@ const Experience = () => {
             <div className={`${Styles.experience4} ${Styles.experience8}`}>
                 <div>
                     <div>
-                        <h1 className={Styles.experience5}>Axlr Data Pvt.Ltd</h1>
+                        <span className={Styles.experience5}>Axlr Data Pvt.Ltd</span>
                     </div>
                     <div>
                         <ul className={Styles.experience6}>
@@ -40,7 +40,7 @@ const Experience = () => {
             <div  className={`${Styles.experience4} ${Styles.experience9}`}>
                 <div>
                     <div>
-                        <h1 className={Styles.experience5}>Dr Reddy Foundations</h1>
+                        <span className={Styles.experience5}>Dr Reddy Foundations</span>
                     </div>
                     <div>
                         <ul className={Styles.experience6}>

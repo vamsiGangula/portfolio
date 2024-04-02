@@ -16,7 +16,7 @@ const About = () => {
           >
             <Grid item xs={4}>
               <div className={Styles.aboutimg}>
-                <img src={Image} alt="error" width={350}/>
+                <img src={Image} alt="error" className={Styles.widthimg}/>
               </div>
             </Grid>
             <Grid item xs={8}>

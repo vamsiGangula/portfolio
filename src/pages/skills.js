@@ -24,7 +24,7 @@ const Skills = () => {
             <div className={`${Styles.skills4} ${Styles.skills9}`}>
                 <div>
                     <div>
-                        <h1 className={Styles.skills5}>Programming Language</h1>
+                        <span className={Styles.skills5}>Programming Language</span>
                     </div>
                     <div>
                         <ul className={Styles.skills6}>
@@ -40,7 +40,7 @@ const Skills = () => {
             <div  className={`${Styles.skills4} ${Styles.skills8}`} >
                 <div>
                     <div>
-                        <h1 className={Styles.skills5}>Course Work</h1>
+                        <span className={Styles.skills5}>Course Work</span>
                     </div>
                     <div>
                         <ul className={Styles.skills6}>
@@ -62,7 +62,7 @@ const Skills = () => {
             <div className={`${Styles.skills4} ${Styles.skills9}`}>
                 <div>
                     <div>
-                        <h1 className={Styles.skills5}>Web Development</h1>
+                        <span className={Styles.skills5}>Web Development</span>
                     </div>
                     <div>
                         <ul className={Styles.skills6}>
@@ -91,7 +91,7 @@ const Skills = () => {
             <div className={`${Styles.skills4} ${Styles.skills8}`}>
                 <div>
                     <div>
-                        <h1 className={Styles.skills5}>Certification</h1>
+                        <span className={Styles.skills5}>Certification</span>
                     </div>
                     <div>
                         <ul className={Styles.skills6}>
