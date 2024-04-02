@@ -63,6 +63,7 @@ const Home = () => {
           </Grid>
         </Box>
       </div>
+      
         <About/>
         <Skills />
           <Experience />
