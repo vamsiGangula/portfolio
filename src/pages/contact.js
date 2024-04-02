@@ -3,8 +3,9 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Styles from "../styles/contact.module.scss";
 import TextFieldComp from "../components/textField/TextFieldComp";
-
+import { useMediaQuery } from '@mui/material';
 const Contact = () => {
+  const isMobile = useMediaQuery('(max-width:768px)');
   return (
     <>
       <div className={`${Styles.contact1} ${Styles.contact6}`}>
@@ -19,8 +20,8 @@ const Contact = () => {
             rowSpacing={1}
             columnSpacing={{ xs: 1, sm: 2, md: 3 }}
           >
-            <Grid item xs={3}></Grid>
-            <Grid item xs={6}>
+            <Grid item xs={!isMobile ? 2 : 0}></Grid>
+            <Grid item xs={isMobile ? 12 : 8}>
               <Grid
                 container
                 rowSpacing={1}
@@ -66,7 +67,7 @@ const Contact = () => {
                 </Grid>
               </Grid>
             </Grid>
-            <Grid item xs={3}></Grid>
+            <Grid item xs={!isMobile ? 2 : 0}></Grid>
           </Grid>
         </Box>
       </div>

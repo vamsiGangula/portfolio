@@ -6,6 +6,11 @@
   padding: 40px;
   background: #161212;
 }
+@media screen and (max-width : 768px){
+  .skills1{
+    padding: 10px;
+  }
+}
 .skills2 {
   display: flex;
   justify-content: center;
@@ -31,7 +36,7 @@
   border: 1px #302e2e;
   border-radius: 20px;
   text-align: center;
-  margin: 10px;
+  margin-top: 10px;
   padding: 10px;
 }
 .skills5 {
