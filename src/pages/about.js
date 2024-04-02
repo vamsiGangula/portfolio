@@ -14,12 +14,12 @@ const About = () => {
             rowSpacing={1}
             columnSpacing={{ xs: 1, sm: 2, md: 3 }}
           >
-            <Grid item xs={4}>
+            <Grid item xs={6} className={Styles.phonewidth}>
               <div className={Styles.aboutimg}>
                 <img src={Image} alt="error" className={Styles.widthimg}/>
               </div>
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={6}>
               <div className={Styles.aboutanimate}>
                 <div>
                   <h1 className={Styles.about2}>About <span className={Styles.about3}>Me</span></h1>

@@ -73,3 +73,8 @@
 .widthimg{
   width: 100%;
 }
+@media screen and (max-width : 768px){
+  .phonewidth{
+    width: 50%;
+  }
+}

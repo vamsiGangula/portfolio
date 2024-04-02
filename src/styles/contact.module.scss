@@ -6,7 +6,11 @@
   padding: 40px;
   background: #161212;
   height: 70vh;
-  
+}
+@media screen and (max-width : 768px){
+  .contact1{
+    padding: 10px;
+  }
 }
 .contact3 {
   color: #ffff;

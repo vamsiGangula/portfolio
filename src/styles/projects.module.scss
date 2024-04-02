@@ -7,6 +7,11 @@
   background: #161212;
   height: 70vh;
 }
+@media screen and (max-width : 768px){
+  .projects1{
+    padding: 10px;
+  }
+}
 .projects2 {
   display: flex;
   justify-content: center;
@@ -20,7 +25,7 @@
   border: 1px #302e2e;
   border-radius: 20px;
   text-align: center;
-  margin: 10px;
+  margin-top: 10px;
   padding: 10px;
 }
 .projects5 {
