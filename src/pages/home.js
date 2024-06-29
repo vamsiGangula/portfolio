@@ -1,5 +1,4 @@
 import React from "react";
-import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import GitHub from "../JSXLOGOS/GitHub";
 import LinkedIn from "../JSXLOGOS/LinkedIn";
