@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Styles from "../styles/about.module.scss";
 import Image from "../public/images/WhatsApp_Image_2024-04-02_at_10.29.35_AM-removebg-preview.png";
