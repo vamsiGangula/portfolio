@@ -3,46 +3,49 @@
     justify-content: center;
     padding: 20px;
     background: #161212;
+    // width: 100%;
   }
-  @media screen and (max-width : 768px) {
-    .homesec{
-      height: 70vh;
-    }
+  .secc{
+    display: flex;
+    justify-content: center;
+
   }
+
   
   .heading {
     color: #ffff;
     font-size: 18px;
   }
   
-  .home-1 {
+  .home_1 {
     color: #ffff;
     font-size: 28px;
   }
   
-  .home-2 {
+  .home_2 {
     color: #ffff;
   }
   
-  .home-3 {
+  .home_3 {
     font-size: 16px;
-    color: #b3acac;
+    color: #ffff;
   }
   
-  .home-4 {
+  .home_4 {
+  padding-left: 0px !important;
     display: flex;
   }
   
-  .home-5 {
+  .home_5 {
     list-style: none;
   }
   
-  .home-6 {
+  .home_6 {
     list-style: none;
     padding-left: 10px;
   }
   
-  .home-7 {
+  .home_7 {
     border: none;
     outline: none;
     background: cyan;
@@ -55,8 +58,12 @@
   .headsectionanim {
     animation: slideInLeft 2s forwards ease-in-out;
     opacity: 0;
+    width: 50%;
     /* animation-delay: 0.5s; */
   }
+  /* .allsec{
+    padding-top: 50px;
+  } */
   
   @keyframes slideInLeft {
     0% {
@@ -68,7 +75,7 @@
       opacity: 1;
     }
   }
-  .home-img {
+  .home_img {
     border: 1px black;
     background: #ffff;
     /* box-shadow: 2px 2px 2px 2px; */
@@ -78,9 +85,10 @@
     justify-content: center;
     align-items: center;
   }
-  .home-img {
+  .home_img {
     animation: slideRight forwards 2s ease-in-out;
     animation-delay: 0.5s;
+    width: 50%;
   }
   @keyframes slideRight {
     0% {
@@ -92,7 +100,20 @@
       opacity: 1;
     }
   }
-  .img-wii{
+  .img_wii{
     width: 100%;
   }
   
+  @media screen and (max-width : 768px) {
+    .secc{
+      display: block;
+      width: 100%;
+    }
+    .home_img{
+      width: 100%;
+      margin-top: 20px;
+    }
+    .headsectionanim{
+      width: 100%;
+    }
+  }

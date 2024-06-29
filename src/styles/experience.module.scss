@@ -3,37 +3,38 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
     background: #161212;
-    height: 70vh;
+  //  width: 100%;
   }
-  @media screen and (max-width : 768px){
-    .experience1{
-      padding: 10px;
-    }
-  }
+
   .experience2 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .experience3 {
-    color: #ffff;
+    // color: #ffff;
+  }
+  .sectt{
+    display: flex;
+    justify-content: center;
   }
   .experience4 {
-    background-color: #302e2e;
-    border: 1px #302e2e;
+    box-shadow: 4px 4px 8px 1px #d6d5d2;
+    padding: 20px;
     border-radius: 20px;
-    text-align: center;
-    margin-top: 10px;
-    padding: 10px;
+    margin: 20px;
+    background: #ffff;
+    width: 50%;
   }
   .experience5 {
-    color: #ffff;
-    font-size: 20px;
+    // color: #ffff;
+    // font-size: 20px;
+    text-decoration: underline;
   }
   .experience6 {
-    color: #ffff;
+    // color: #ffff;
     list-style: none;
   }
   .experience8{
@@ -62,5 +63,16 @@
     100% {
         transform: translateY(0%);
         opacity: 1;
+    }
+  }
+  @media screen and (max-width : 768px){
+    .experience1{
+      padding: 10px;
+    }
+    .experience4{
+      width: 80%;
+    }
+    .sectt{
+      display: block;
     }
   }
